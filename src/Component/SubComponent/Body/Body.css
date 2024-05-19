@@ -1,0 +1,65 @@
+.BodyCointainer{
+    /* background-color: rgb(255, 153, 0); */
+    padding: 30px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.body{
+    /* height: 35vh; */
+    padding: 20px;
+    border: 1px solid gray;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Title{
+    padding: 10px;
+    width: 80%;
+    font-weight: 700;
+    border-radius:10px ;
+    border: none;
+    outline: none;
+    background-color: #f7f7f8;
+}
+.horizental_line{
+    width: 85%;
+    border: 1px solid black;
+}
+.Notes{
+    padding: 10px;
+    width: 80%;
+    border-radius:10px ;
+    outline: none;
+    border: none;
+    background-color: #f7f7f8;
+}
+
+
+.addbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+@media only screen and (max-width: 460px) {
+   
+   .body{
+    width: 65vw;
+   }
+   .BodyCointainer{
+    padding: 40px 0px;
+   }
+
+}

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Header{
+    background-color: gray;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+span{
+    color: white;
+}
+
+.searchbox{
+    position: relative;
+}
+
+.Search{
+    padding: 10px;
+    width: 30vw;
+    border-radius: 10px;
+    border: none;
+   outline: none;
+  
+}
+
+
+@media only screen and (max-width: 460px) {
+   .Logo{
+    font-size: 25px;
+   }
+   .Header{
+   padding: 15px 20px;
+   }
+  }
